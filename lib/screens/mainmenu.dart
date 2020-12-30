@@ -14,13 +14,13 @@ class _MainMenuState extends State<MainMenu> {
   List<dynamic> _dataKota = List();
   List<dynamic> _dataKec = List();
   String _getProv;
-  String prov;
+
   String _nameProv;
   String _getKota;
-  String kabkota;
+
   String _nameKota;
   String _getKec;
-  String kec;
+
   String _nameKec;
 
   void getProv() async {
